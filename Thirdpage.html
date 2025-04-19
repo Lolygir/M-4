@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>الدرب</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Tahoma', sans-serif;
+      background-image: url('IMG14.jpeg'); /* يمكنك استبدال هذا برابط خلفيتك */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 24px;
+      margin: 0 auto;
+    }
+
+    header .logo {
+      position: absolute;
+      right: 20px;
+      width: 50px;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 80vh;
+      padding: 20px;
+    }
+
+    .content-box {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+      text-align: center;
+      color: #333;
+    }
+
+    .app-icon {
+      display: block;
+      margin: 20px auto;
+      width: 120px;
+      height: 120px;
+      background-image: url('IMG84.jpeg'); /* صورة شعار درب */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- رأس الصفحة -->
+  <header>
+    <h1>الدرب</h1>
+    <img src="IMG84.jpeg" alt="شعار الدرب" class="logo" />
+  </header>
+
+  <!-- المحتوى -->
+  <main>
+    <div class="content-box">
+      <h2>مرحباً بك في تطبيق الدرب</h2>
+      <p>اضغط على الأيقونة للدخول.</p>
+      <a href="https://www.riyadhbus.sa/ar/home">
+        <div class="app-icon"></div>
+      </a>
+    </div>
+  </main>
+
+  <!-- تذييل الصفحة -->
+  <footer>
+    <a href="startpage.html">الرجوع إلى الصفحة الرئيسية</a>
+  </footer>
+
+</body>
+</html>
+
